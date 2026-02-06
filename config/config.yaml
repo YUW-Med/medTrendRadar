@@ -44,8 +44,6 @@ platforms:
       name: "凤凰网"
     - id: "weibo"
       name: "微博"
-    - id: "douyin"
-      name: "抖音"
     - id: "zaobao"
       name: "联合早报"
     - id: "wallstreetcn-hot"
