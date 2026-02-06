@@ -343,7 +343,7 @@ ai:
   
   model: "deepseek/deepseek-chat"
 
-  api_key: ""                       # API Key（建议使用环境变量 AI_API_KEY）
+  api_key: "sk-a4ee758381034823831ae6f7b76094f6"                       # API Key（建议使用环境变量 AI_API_KEY）
   
   api_base: ""                      # 自定义 API 端点（可选，大多数情况留空）
                                     # 示例: https://api.openai.com/v1（自建代理或兼容接口）
@@ -411,8 +411,8 @@ ai_analysis:
   #   • 跨日窗口：start > end，如 22:00-02:00（当天 22 点到次日 2 点）
   analysis_window:
     enabled: false                  # 是否启用 AI 分析时间窗口控制
-    start: "09:00"                  # 开始时间（使用 app.timezone 配置的时区）
-    end: "22:00"                    # 结束时间（支持跨日，如 end: "02:00"）
+    start: "00:00"                  # 开始时间（使用 app.timezone 配置的时区）
+    end: "24:00"                    # 结束时间（支持跨日，如 end: "02:00"）
     once_per_day: false             # true=窗口内只分析一次，false=窗口内每次执行都分析
 
   # 分析报告输出语言
